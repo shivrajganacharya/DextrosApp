@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Quiz</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="tab_names">
+        <item>"Out of the given alternatives select the alternative which best expresses the meaning of the word - Proclivity"</item>
+        <item>"A. Anguish"</item>
+        <item>"B. Abstinence"</item>
+        <item>"C. Asperity"</item>
+        <item>"D. Leaning"</item>
+        <item>"Out of the given alternatives select the word opposite in meaning to the word- Entice"</item>
+        <item>"A. Rinse"</item>
+        <item>"B. Repulse"</item>
+        <item>"C. Divulge"</item>
+        <item>"D. Apportion"</item>
+        <item>"03. One of given alternatives select the option which best expresses the meaning of
+            given idiom/ phrase - To shoot one's bolt."
+        </item>
+        <item>"A. To be very angry"</item>
+        <item>"B. To do nothing"</item>
+        <item>"C. Use one's resources"</item>
+        <item>" D. None of the above"</item>
+    </string-array>
+</resources>

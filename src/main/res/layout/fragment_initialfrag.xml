@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sidsa.quiz.Initialfrag"
+    android:background="@drawable/questionback">
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="0"
+        android:progressDrawable="@drawable/drawable_circle_yellow"
+        android:rotation="-90" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="24sp"
+
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignEnd="@+id/button2"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/progressBar"
+        android:layout_marginTop="25dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:text="Out of the given alternatives select the alternative which best expresses the  "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#F9A825"
+        android:textSize="22sp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rad"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button2"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="radio_qw"
+        android:text="SUBMIT"
+        android:textColor="#0091EA"
+        android:textSize="20sp"
+        android:layout_below="@+id/radioGroup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#0091EA"
+        android:text="NEXT"
+        android:visibility="visible"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/button6"
+        android:layout_alignBottom="@+id/button6"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:background="#0091EA"
+        android:text="PREV"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup"
+        android:layout_below="@+id/rad"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp">
+
+        <RadioButton
+            android:id="@+id/radioButton7"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/radioButtont"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="A. Anguish"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:buttonTint="@android:color/white" />
+
+        <RadioButton
+            android:id="@+id/radioButton8"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/radioButtons"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="B. Abstinence"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:buttonTint="@android:color/white" />
+
+        <RadioButton
+            android:id="@+id/radioButton9"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/radioButtonf"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="C. Asperity"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:buttonTint="@android:color/white" />
+
+        <RadioButton
+            android:id="@+id/radioButton10"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/rad"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:bufferType="spannable"
+            android:checked="false"
+            android:text="D. Leaning "
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:buttonTint="@android:color/white" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/textView12"
+        android:layout_alignLeft="@+id/button6"
+        android:layout_alignStart="@+id/button6"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/blue_flag"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/button4"
+        android:layout_marginLeft="6dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="11dp"
+        android:text="TextView" />
+
+
+</RelativeLayout>

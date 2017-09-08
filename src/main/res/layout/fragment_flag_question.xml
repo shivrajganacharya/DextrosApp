@@ -1,0 +1,354 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/questionback"
+    tools:context="com.example.sidsa.quiz.FlagQuestion">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.97"
+                android:background="@color/cardview_shadow_end_color"
+                android:onClick="fun"
+                android:text="Question No. 1"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.51"
+                android:background="@color/cardview_shadow_end_color"
+                android:onClick="fun"
+                android:text="Question No. 2"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cardview_shadow_end_color"
+                android:onClick="fun"
+                android:shadowColor="@color/colorAccent"
+                android:text="Question No. 3"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cardview_shadow_end_color"
+                android:onClick="fun"
+                android:text="Question No. 4"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:onClick="fun"
+                android:text="Question No. 5"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/button39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:text="Question No. 6"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/button40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:text="Question No. 7"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/button41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cardview_shadow_end_color"
+                android:text="Question No. 8"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/button42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cardview_shadow_end_color"
+                android:text="Question No. 9"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/button43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cardview_shadow_end_color"
+                android:text="Question No. 10"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/button44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cardview_shadow_end_color"
+                android:text="Question No. 11"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/button45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cardview_shadow_end_color"
+                android:text="Question No. 12"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/button46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cardview_shadow_end_color"
+                android:text="Question No. 13"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/button47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cardview_shadow_end_color"
+                android:text="Question No. 14"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/button48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cardview_shadow_end_color"
+                android:text="Question No. 15"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/button49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cardview_shadow_end_color"
+                android:text="Question No. 16"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/button50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cardview_shadow_end_color"
+                android:text="Question No. 17"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/button51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cardview_shadow_end_color"
+                android:text="Question No. 18"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/button52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cardview_shadow_end_color"
+                android:text="Question No. 19"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/button53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cardview_shadow_end_color"
+                android:text="Question No. 20"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/button54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cardview_shadow_end_color"
+                android:text="Question No. 21"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/button55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cardview_shadow_end_color"
+                android:text="Question No. 22"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/button56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cardview_shadow_end_color"
+                android:text="Question No. 23"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/button57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cardview_shadow_end_color"
+                android:text="Question No. 24"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/button58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cardview_shadow_end_color"
+                android:text="Question No. 125"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/button59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cardview_shadow_end_color"
+                android:text="Question No. 26"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/button60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cardview_shadow_end_color"
+                android:text="Question No. 27"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/button61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cardview_shadow_end_color"
+                android:text="Question No. 28"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/button62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cardview_shadow_end_color"
+                android:text="Question No. 29"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/button63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cardview_shadow_end_color"
+                android:text="Question No. 30"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/button64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cardview_shadow_end_color"
+                android:text="Question No. 31"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/button65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cardview_shadow_end_color"
+                android:text="Question No. 32"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/button66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cardview_shadow_end_color"
+                android:text="Question No. 33"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/button67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cardview_shadow_end_color"
+                android:text="Question No. 34"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/button68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cardview_shadow_end_color"
+                android:text="Question No. 35"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="91dp"
+                android:layout_weight="1"
+                android:text="submit" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
