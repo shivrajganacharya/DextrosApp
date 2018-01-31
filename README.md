@@ -1,2 +1,2 @@
-# DextrosApp1
-A quiz application (Aptitude Tests)
+Android application
+An application for a quiz competition.
